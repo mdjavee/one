@@ -4,7 +4,7 @@ const Head = () => {
   return (
     <>
     <div>
-        <Link to='/'><h1 className='xs:text-[40px] xs:mx-5 xs:my-6 title pb-4'>Myntra</h1>
+        <Link to='/'><h1 className=' text-red-400 xs:text-[40px] xs:mx-5 xs:my-6 title pb-4'>Myntra</h1>
         </Link><div>
             <nav>
                 <ul className='list-none flex xs:gap-3 xs:mx-4 xs:text-[20px]'>
