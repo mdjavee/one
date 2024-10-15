@@ -4,10 +4,10 @@ const Head = () => {
   return (
     <>
     <div>
-        <Link to='/'><h1 className='sm:text-[30px] sm:mx-5 sm:my-6 title pb-4'>Myntra</h1>
+        <Link to='/'><h1 className='xs:text-[40px] xs:mx-5 xs:my-6 title pb-4'>Myntra</h1>
         </Link><div>
             <nav>
-                <ul className='list-none flex sm:gap-8 sm:mx-2 nav'>
+                <ul className='list-none flex xs:gap-5 xs:mx-3 xs:text-[20px]'>
                     <li><NavLink to='/Men'>Men</NavLink></li>
                     
                     <li><NavLink to='/Women'>Women</NavLink></li>
