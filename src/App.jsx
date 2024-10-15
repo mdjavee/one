@@ -1,18 +1,18 @@
 import React from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
-import First from './first'
 import Men from './components/Men'
 import Women from './components/Women'
 import Kids from './components/Kids'
 import Grocery from './components/Grocery'
 import Devices from './components/Devices'
+import Head from './components/Head'
 const App = () => {
   return (
     <>
     <div>
     <BrowserRouter>
-    <First/>
+    <Head/>
     <Routes>
       <Route path="/Men" element={<Men />} />
       <Route path="/women" element={<Women />} />
