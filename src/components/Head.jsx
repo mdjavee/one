@@ -7,7 +7,7 @@ const Head = () => {
         <Link to='/'><h1 className='xs:text-[40px] xs:mx-5 xs:my-6 title pb-4'>Myntra</h1>
         </Link><div>
             <nav>
-                <ul className='list-none flex xs:gap-2 xs:mx-3 xs:text-[19px]'>
+                <ul className='list-none flex xs:gap-3 xs:mx-2 xs:text-[18px]'>
                     <li><NavLink to='/Men'>Men</NavLink></li>
                     
                     <li><NavLink to='/Women'>Women</NavLink></li>
