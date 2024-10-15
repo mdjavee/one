@@ -11,7 +11,6 @@ const App = () => {
   return (
     <>
     <div>
-<<<<<<< HEAD
     <BrowserRouter>
     <First/>
     <Routes>
@@ -23,10 +22,6 @@ const App = () => {
       
     </Routes>
     </BrowserRouter>
-=======
-         <h1 className='xs:text-1xl xs:text-red-400 sm:text-cyan-300 smm:text-purple-400  mx-6 my-6 sm:text-2xl smm:text-3xl'>Hello</h1>
-   
->>>>>>> 0bd406feb81c6f4306558627392654f5dc9c16d4
     </div>
     </>
   )
